@@ -1,0 +1,46 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-01-05T16:10:33.200853",
+    "startedAt": "2024-01-05T16:10:32.419697",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "tests.test_training"
+    ],
+    "state": "running",
+    "program": "-m unittest.__main__",
+    "codePathLocal": null,
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "kernibeni17@gmail.com",
+    "root": "/Users/bencekern/Documents/Sulis cuccok/DTU mester",
+    "host": "Bences-MacBook-Pro.local",
+    "username": "bencekern",
+    "executable": "/Users/bencekern/opt/anaconda3/envs/my_environment/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 216.4745216369629
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

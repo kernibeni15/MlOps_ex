@@ -1,0 +1,8 @@
+torch.Size([25000, 28, 28])
+torch.Size([25000])
+torch.Size([5000, 28, 28])
+torch.Size([5000])
+torch.Size([25000, 28, 28])
+torch.Size([25000])
+torch.Size([5000, 28, 28])
+torch.Size([5000])

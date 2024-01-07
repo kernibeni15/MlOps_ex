@@ -1,0 +1,20 @@
+E
+======================================================================
+ERROR: test_training_loop (tests.test_training.TestTrainFunction.test_training_loop)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/tests/test_training.py", line 21, in test_training_loop
+    train(lr=0.001, batch_size=32, num_epochs=2)
+  File "/Users/bencekern/opt/anaconda3/envs/my_environment/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bencekern/opt/anaconda3/envs/my_environment/lib/python3.11/site-packages/click/core.py", line 1077, in main
+    with self.make_context(prog_name, args, **extra) as ctx:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bencekern/opt/anaconda3/envs/my_environment/lib/python3.11/site-packages/click/core.py", line 938, in make_context
+    ctx = self.context_class(
+          ^^^^^^^^^^^^^^^^^^^
+TypeError: Context.__init__() got an unexpected keyword argument 'lr'
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+FAILED (errors=1)

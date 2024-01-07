@@ -1,0 +1,180 @@
+2024-01-05 18:49:39,326 INFO    StreamThr :16210 [internal.py:wandb_internal():86] W&B internal server running at pid: 16210, started at: 2024-01-05 18:49:39.325672
+2024-01-05 18:49:39,327 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: status
+2024-01-05 18:49:39,335 INFO    WriterThread:16210 [datastore.py:open_for_write():85] open: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/run-mhocm9pv.wandb
+2024-01-05 18:49:39,335 DEBUG   SenderThread:16210 [sender.py:send():382] send: header
+2024-01-05 18:49:39,337 DEBUG   SenderThread:16210 [sender.py:send():382] send: run
+2024-01-05 18:49:39,789 INFO    SenderThread:16210 [dir_watcher.py:__init__():211] watching files in: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files
+2024-01-05 18:49:39,789 INFO    SenderThread:16210 [sender.py:_start_run_threads():1136] run started: mhocm9pv with start time 1704476979.328453
+2024-01-05 18:49:39,808 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: check_version
+2024-01-05 18:49:39,808 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: check_version
+2024-01-05 18:49:39,910 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: run_start
+2024-01-05 18:49:39,928 DEBUG   HandlerThread:16210 [system_info.py:__init__():32] System info init
+2024-01-05 18:49:39,928 DEBUG   HandlerThread:16210 [system_info.py:__init__():47] System info init done
+2024-01-05 18:49:39,928 INFO    HandlerThread:16210 [system_monitor.py:start():194] Starting system monitor
+2024-01-05 18:49:39,928 INFO    SystemMonitor:16210 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-05 18:49:39,928 INFO    HandlerThread:16210 [system_monitor.py:probe():214] Collecting system info
+2024-01-05 18:49:39,929 INFO    SystemMonitor:16210 [interfaces.py:start():190] Started cpu monitoring
+2024-01-05 18:49:39,929 DEBUG   HandlerThread:16210 [system_info.py:probe():196] Probing system
+2024-01-05 18:49:39,931 INFO    SystemMonitor:16210 [interfaces.py:start():190] Started disk monitoring
+2024-01-05 18:49:39,931 INFO    SystemMonitor:16210 [interfaces.py:start():190] Started memory monitoring
+2024-01-05 18:49:39,932 INFO    SystemMonitor:16210 [interfaces.py:start():190] Started network monitoring
+2024-01-05 18:49:39,932 DEBUG   HandlerThread:16210 [system_info.py:_probe_git():181] Probing git
+2024-01-05 18:49:39,959 DEBUG   HandlerThread:16210 [system_info.py:_probe_git():189] Probing git done
+2024-01-05 18:49:39,960 DEBUG   HandlerThread:16210 [system_info.py:probe():244] Probing system done
+2024-01-05 18:49:39,960 DEBUG   HandlerThread:16210 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.11.5', 'heartbeatAt': '2024-01-05T17:49:39.931395', 'startedAt': '2024-01-05T17:49:39.314450', 'docker': None, 'cuda': None, 'args': ('tests/',), 'state': 'running', 'program': '-m pytest.__main__', 'codePathLocal': None, 'git': {'remote': None, 'commit': None}, 'email': 'kernibeni17@gmail.com', 'root': '/Users/bencekern/Documents/Sulis cuccok/DTU mester', 'host': 'Bences-MacBook-Pro.local', 'username': 'bencekern', 'executable': '/Users/bencekern/opt/anaconda3/envs/my_environment/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 460.4317207336426, 'used': 216.48197174072266}}, 'memory': {'total': 16.0}}
+2024-01-05 18:49:39,960 INFO    HandlerThread:16210 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-05 18:49:39,960 INFO    HandlerThread:16210 [system_monitor.py:probe():227] Publishing system info
+2024-01-05 18:49:39,960 DEBUG   HandlerThread:16210 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-05 18:49:39,961 DEBUG   HandlerThread:16210 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-05 18:49:39,961 DEBUG   HandlerThread:16210 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-01-05 18:49:39,985 DEBUG   HandlerThread:16210 [system_info.py:_save_conda():87] Saving conda packages done
+2024-01-05 18:49:39,986 INFO    HandlerThread:16210 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-05 18:49:39,993 DEBUG   SenderThread:16210 [sender.py:send():382] send: files
+2024-01-05 18:49:39,993 INFO    SenderThread:16210 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-05 18:49:39,998 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 18:49:39,999 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 18:49:39,999 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 18:49:40,241 DEBUG   SenderThread:16210 [sender.py:send():382] send: telemetry
+2024-01-05 18:49:40,645 INFO    wandb-upload_0:16210 [upload_job.py:push():131] Uploaded file /var/folders/zp/kxhbk32n3jn1g27dlwv5fn3w0000gn/T/tmpr64zx26xwandb/40gpeca3-wandb-metadata.json
+2024-01-05 18:49:40,795 INFO    Thread-12 :16210 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/requirements.txt
+2024-01-05 18:49:40,796 INFO    Thread-12 :16210 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/wandb-metadata.json
+2024-01-05 18:49:40,796 INFO    Thread-12 :16210 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/output.log
+2024-01-05 18:49:40,796 INFO    Thread-12 :16210 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/conda-environment.yaml
+2024-01-05 18:49:41,659 DEBUG   SenderThread:16210 [sender.py:send():382] send: exit
+2024-01-05 18:49:41,659 INFO    SenderThread:16210 [sender.py:send_exit():589] handling exit code: 0
+2024-01-05 18:49:41,660 INFO    SenderThread:16210 [sender.py:send_exit():591] handling runtime: 1
+2024-01-05 18:49:41,660 INFO    SenderThread:16210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-05 18:49:41,660 INFO    SenderThread:16210 [sender.py:send_exit():597] send defer
+2024-01-05 18:49:41,660 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:41,660 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-05 18:49:41,660 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:41,660 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-05 18:49:41,660 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 1
+2024-01-05 18:49:41,660 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:41,660 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-05 18:49:41,660 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:41,660 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-05 18:49:41,661 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 2
+2024-01-05 18:49:41,661 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:41,661 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-05 18:49:41,661 INFO    HandlerThread:16210 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-05 18:49:41,661 DEBUG   SystemMonitor:16210 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-05 18:49:41,661 DEBUG   SystemMonitor:16210 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-05 18:49:41,661 DEBUG   SystemMonitor:16210 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-05 18:49:41,662 INFO    HandlerThread:16210 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-05 18:49:41,662 INFO    HandlerThread:16210 [interfaces.py:finish():202] Joined disk monitor
+2024-01-05 18:49:41,662 INFO    HandlerThread:16210 [interfaces.py:finish():202] Joined memory monitor
+2024-01-05 18:49:41,662 INFO    HandlerThread:16210 [interfaces.py:finish():202] Joined network monitor
+2024-01-05 18:49:41,662 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:41,662 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-05 18:49:41,662 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 3
+2024-01-05 18:49:41,662 DEBUG   SenderThread:16210 [sender.py:send():382] send: stats
+2024-01-05 18:49:41,662 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:41,663 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-05 18:49:41,663 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:41,663 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-05 18:49:41,663 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 4
+2024-01-05 18:49:41,663 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:41,663 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-05 18:49:41,663 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:41,663 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-05 18:49:41,663 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 5
+2024-01-05 18:49:41,663 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:41,663 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-05 18:49:41,663 DEBUG   SenderThread:16210 [sender.py:send():382] send: summary
+2024-01-05 18:49:41,664 INFO    SenderThread:16210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-05 18:49:41,664 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:41,664 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-05 18:49:41,664 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 6
+2024-01-05 18:49:41,664 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:41,664 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-05 18:49:41,664 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:41,664 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-05 18:49:41,666 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 18:49:41,800 INFO    Thread-12 :16210 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/wandb-summary.json
+2024-01-05 18:49:41,859 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 7
+2024-01-05 18:49:41,859 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:41,859 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-05 18:49:41,859 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:41,859 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-05 18:49:42,270 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 8
+2024-01-05 18:49:42,271 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:42,271 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-05 18:49:42,273 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:42,273 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-05 18:49:42,273 INFO    SenderThread:16210 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-05 18:49:42,274 INFO    SenderThread:16210 [job_builder.py:_get_source_type():439] no source found
+2024-01-05 18:49:42,274 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 9
+2024-01-05 18:49:42,274 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:42,274 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-05 18:49:42,274 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:42,274 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-05 18:49:42,275 INFO    SenderThread:16210 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-05 18:49:42,665 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-05 18:49:42,805 INFO    SenderThread:16210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/config.yaml
+2024-01-05 18:49:42,806 INFO    SenderThread:16210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/output.log
+2024-01-05 18:49:42,806 INFO    SenderThread:16210 [dir_watcher.py:finish():388] scan: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files
+2024-01-05 18:49:42,807 INFO    SenderThread:16210 [dir_watcher.py:finish():402] scan save: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/requirements.txt requirements.txt
+2024-01-05 18:49:42,807 INFO    SenderThread:16210 [dir_watcher.py:finish():402] scan save: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/output.log output.log
+2024-01-05 18:49:42,811 INFO    SenderThread:16210 [dir_watcher.py:finish():402] scan save: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/config.yaml config.yaml
+2024-01-05 18:49:42,812 INFO    SenderThread:16210 [dir_watcher.py:finish():402] scan save: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/wandb-summary.json wandb-summary.json
+2024-01-05 18:49:42,816 INFO    SenderThread:16210 [dir_watcher.py:finish():402] scan save: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/conda-environment.yaml conda-environment.yaml
+2024-01-05 18:49:42,820 INFO    SenderThread:16210 [dir_watcher.py:finish():402] scan save: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/wandb-metadata.json wandb-metadata.json
+2024-01-05 18:49:42,820 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 10
+2024-01-05 18:49:42,820 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: poll_exit
+2024-01-05 18:49:42,821 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:42,821 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-05 18:49:42,822 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:42,822 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-05 18:49:42,822 INFO    SenderThread:16210 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-05 18:49:43,217 INFO    wandb-upload_1:16210 [upload_job.py:push():131] Uploaded file /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/output.log
+2024-01-05 18:49:43,323 INFO    wandb-upload_0:16210 [upload_job.py:push():131] Uploaded file /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/requirements.txt
+2024-01-05 18:49:43,325 INFO    wandb-upload_2:16210 [upload_job.py:push():131] Uploaded file /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/config.yaml
+2024-01-05 18:49:43,326 INFO    wandb-upload_3:16210 [upload_job.py:push():131] Uploaded file /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/files/wandb-summary.json
+2024-01-05 18:49:43,532 INFO    Thread-11 (_thread_body):16210 [sender.py:transition_state():617] send defer: 11
+2024-01-05 18:49:43,534 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:43,534 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-05 18:49:43,535 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:43,535 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-05 18:49:43,535 INFO    SenderThread:16210 [file_pusher.py:join():181] waiting for file pusher
+2024-01-05 18:49:43,536 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 12
+2024-01-05 18:49:43,536 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:43,536 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-05 18:49:43,536 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:43,536 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-05 18:49:43,536 INFO    SenderThread:16210 [file_stream.py:finish():595] file stream finish called
+2024-01-05 18:49:43,673 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-05 18:49:43,707 INFO    SenderThread:16210 [file_stream.py:finish():599] file stream finish is done
+2024-01-05 18:49:43,707 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 13
+2024-01-05 18:49:43,707 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: poll_exit
+2024-01-05 18:49:43,707 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:43,708 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-05 18:49:43,708 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:43,708 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-05 18:49:43,709 INFO    SenderThread:16210 [sender.py:transition_state():617] send defer: 14
+2024-01-05 18:49:43,709 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: defer
+2024-01-05 18:49:43,709 INFO    HandlerThread:16210 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-05 18:49:43,709 DEBUG   SenderThread:16210 [sender.py:send():382] send: final
+2024-01-05 18:49:43,709 DEBUG   SenderThread:16210 [sender.py:send():382] send: footer
+2024-01-05 18:49:43,709 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: defer
+2024-01-05 18:49:43,710 INFO    SenderThread:16210 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-05 18:49:43,710 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-05 18:49:43,711 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: poll_exit
+2024-01-05 18:49:43,711 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-05 18:49:43,712 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: server_info
+2024-01-05 18:49:43,712 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: poll_exit
+2024-01-05 18:49:43,712 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: server_info
+2024-01-05 18:49:43,715 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-05 18:49:43,715 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-05 18:49:43,715 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 18:49:43,716 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: job_info
+2024-01-05 18:49:43,864 DEBUG   SenderThread:16210 [sender.py:send_request():409] send_request: job_info
+2024-01-05 18:49:43,865 INFO    MainThread:16210 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-01-05 18:49:43,865 INFO    MainThread:16210 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-01-05 18:49:43,865 INFO    MainThread:16210 [wandb_run.py:_footer_sync_info():3796] logging synced files
+2024-01-05 18:49:43,866 DEBUG   HandlerThread:16210 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-05 18:49:43,866 INFO    HandlerThread:16210 [handler.py:finish():866] shutting down handler
+2024-01-05 18:49:44,722 INFO    WriterThread:16210 [datastore.py:close():294] close: /Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/wandb/run-20240105_184939-mhocm9pv/run-mhocm9pv.wandb
+2024-01-05 18:49:44,870 INFO    SenderThread:16210 [sender.py:finish():1548] shutting down sender
+2024-01-05 18:49:44,870 INFO    SenderThread:16210 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-05 18:49:44,871 INFO    SenderThread:16210 [file_pusher.py:join():181] waiting for file pusher

@@ -1,0 +1,17 @@
+E
+======================================================================
+ERROR: test_training_loop (tests.test_training.TestTrainFunction.test_training_loop)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/bencekern/Documents/Sulis cuccok/DTU mester/second_semester/MLOps/mnist_project/tests/test_training.py", line 21, in test_training_loop
+    train(0.001, 32, 2)
+  File "/Users/bencekern/opt/anaconda3/envs/my_environment/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bencekern/opt/anaconda3/envs/my_environment/lib/python3.11/site-packages/click/core.py", line 1067, in main
+    args = list(args)
+           ^^^^^^^^^^
+TypeError: 'float' object is not iterable
+----------------------------------------------------------------------
+Ran 1 test in 0.008s
+FAILED (errors=1)
